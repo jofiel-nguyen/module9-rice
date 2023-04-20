@@ -1,5 +1,7 @@
 // TODO: Include packages needed for this application
-const inquirer = require('inquirer');
+async function myFunction() {
+  const { default: inquirer } = await import('inquirer');
+  
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
@@ -70,3 +72,7 @@ function writeToFile(fileName, data) {
   }
 
   init();
+}
+
+myFunction(); 
+
