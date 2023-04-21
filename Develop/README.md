@@ -1,7 +1,7 @@
-# Tik Tak
+# zic zac
 
 
 ## License
 
-This project is licensed under the GPLv3 license.
+This project is licensed under the GPLv2 license.
 
